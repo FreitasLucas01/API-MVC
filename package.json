@@ -1,0 +1,27 @@
+{
+  "name": "api-mvc",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/FreitasLucas01/API-MVC#readme",
+  "bugs": {
+    "url": "https://github.com/FreitasLucas01/API-MVC/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FreitasLucas01/API-MVC.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node --watch app.js",
+    "test": "jest test/*"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "jest": "^30.0.3"
+  }
+}
